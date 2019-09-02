@@ -1,0 +1,26 @@
+{
+    "name": "seasofthpyosithu/jp-char-validation",
+    "description": "laravel validation for japanese character, hirakana, katakana, zenkaku, hankaku",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Si Thu Hpyo",
+            "email": "sandaraion@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Seasofthpyosithu\\JpCharValidation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "Seasofthpyosithu\\JpCharValidation\\JpCharValidationServiceProvider"
+            ]
+        }
+    }
+}
